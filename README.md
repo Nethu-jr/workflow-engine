@@ -1,12 +1,12 @@
-#  Minimal Agent Workflow Engine  
+# Minimal Agent Workflow Engine  
 A lightweight workflow/graph execution engine built with **FastAPI**, designed as part of an AI Engineering Assignment.  
 This project demonstrates how to design, register, and execute rule-based workflows using a shared state dictionary, a tool registry, and a simple graph engine with branching & looping support.
 
 ---
 
-##  Features
+## Features
 
-### ✔️ Workflow Engine
+###  Workflow Engine
 - Node-based execution system  
 - Each node is a Python function (a "tool")  
 - Shared mutable **state dict** across all nodes  
@@ -39,4 +39,3 @@ Includes **Option A: Code Review Mini-Agent** (rule-based):
 ---
 
 ##  Project Structure
-
